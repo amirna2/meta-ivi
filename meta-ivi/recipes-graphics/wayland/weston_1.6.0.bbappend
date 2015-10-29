@@ -51,7 +51,7 @@ SRC_URI_append = " file://ivi-shell-click-event.patch"
 # [PATCH] Enable/disable default virtual keyboard
 # Signed-off-by: Imran Zaman <imran.zaman@intel.com>
 SRC_URI_append = " file://Enable-disable-default-virtual-keyboard.patch"
-EXTRA_OECONF += "--disable-default-vkb"
+EXTRA_OECONF += "--disable-default-vkb --disable-egl"
 
 # [PATCH] fix up for GENIVI baseline 9.0
 # Signed-off-by: Yong-iL Joh <yong-il.joh@windriver.com>
